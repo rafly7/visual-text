@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url(./assets/fonts/OpenSans-Regular.ttf) format('truetype');
+  font-family: 'Redressed Regular';
+  src: url(./assets/fonts/Redressed-Regular.ttf) format('truetype');
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +13,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-family-redressed: 'Redressed Regular', Arial, Helvetica, sans-serif;
+  --font-family-opensans: 'OpenSans Regular', Arial, Helvetica, sans-serif;
 }
 
 code {
